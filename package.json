@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
+    "body-parser": "^1.19.0",
     "core-js": "^3.8.2",
+    "morgan": "^1.10.0",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {}

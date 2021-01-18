@@ -1,3 +1,5 @@
+import bodyParser from 'body-parser'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -34,6 +36,10 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+  ],
+  serverMiddleware: [
+    bodyParser.urlencoded({extended:true}),
+    { path: '/api', handler: '~/api/index.js' }
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

@@ -11,11 +11,11 @@
 ## Development environment
 1. SERVER 
  - Amazon Web Service 
- - EC2 Ubuntu20.04 
+ - EC2 Ubuntu 20.04 
  
 2. Database
  - mysql
  
-3. Language
- - FE vue.js
+3. Language (Javascript)
+ - FE vue.js / Nuxt
  - BE EXPRESS 
